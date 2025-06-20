@@ -5,7 +5,7 @@ CXX  = mpicxx
 export MPI_HOME = $(I_MPI_ROOT)
 
 # Fix missing Intel Math Library links to FFTW2 library
-INTEL_LIBS = $(INTEL_HOME)/compiler/latest/linux/compiler/lib/intel64_lin
+INTEL_LIBDIR = $(INTEL_HOME)/compiler/latest/linux/compiler/lib/intel64_lin
 
 #OPT   +=  -DPRODUCEGAS   # Set this to automatically produce gas particles
                           # for a single DM species in the input file by interleaved by a half a grid spacing
